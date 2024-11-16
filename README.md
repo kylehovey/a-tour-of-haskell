@@ -1,5 +1,7 @@
 # A Tour of Haskell
 
+![image](https://github.com/user-attachments/assets/1038a5d1-7ce3-4f2d-816e-65b7f27f7bf8)
+
 This is a repo I built to teach the basics of Haskell. I use the files in here to give a live demonstration of how we use Haskell to encode our intents when we write code, and how we can work with the compiler to help us evolve our code safely. As a companion to this repo, I [made a blog post](https://kylehovey.github.io/blog/a-tour-of-haskell) going over everything I mention in the talk.
 
 ## Setting Up Your Environment
