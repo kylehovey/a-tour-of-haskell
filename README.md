@@ -2,6 +2,25 @@
 
 This is a repo I built to teach the basics of Haskell. I use the files in here to give a live demonstration of how we use Haskell to encode our intents when we write code, and how we can work with the compiler to help us evolve our code safely. As a companion to this repo, I [made a blog post](https://kylehovey.github.io/blog/a-tour-of-haskell) going over everything I mention in the talk.
 
+## Setting Up Your Environment
+
+To set up a Haskell Environment to follow along, install [ghcup](https://www.haskell.org/ghcup/) using your package manager of choice. I personally recommend using `ghcup tui` to get an interactive UI for installing:
+
+* `stack` - Your Haskell project management tool. Use this to build your project with `stack build` or simply run it with `stack run`.
+* `cabal` - Haskell's library manager, which `stack` uses behind the scenes.
+* `ghc` - The Haskell compiler, which also comes with a repl `ghci` or "[GHC Interactive](https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/ghci.html)".
+* `hls` - Haskell's language server which integrates with modern IDE's to give you live errors, type hints, and documentation. 
+
+Make sure you not only install (`i`) the versions recommended by `ghcup tui` but also set (`s`) them as the default.
+
+## Setting Up This Project
+
+Assuming you have set up your enviroment with `ghcup`, you should be able to `stack build` this project. Your IDE should also show you type hints if HLS is properly configured for your IDE.
+
+## Running the Presentation
+
+I built the slides for this presentation using [presenting.nvim](https://github.com/sotte/presenting.nvim). If you are running Neovim as your editor, you can install this plugin and run `:Presenting` while `presentation.md` is your active buffer. Otherwise, the presentation is just a (verbose) markdown file if you want to peruse the slides.
+
 ## External Resources
 
 ### Philisophical Posts
@@ -19,22 +38,3 @@ This is a repo I built to teach the basics of Haskell. I use the files in here t
 
 * [Algorithm W Step by Step](https://github.com/wh5a/Algorithm-W-Step-By-Step/blob/master/AlgorithmW.pdf) - A short guide on how to build Haskell's type system
 * [Types and Programming Languages](https://www.amazon.com/Types-Programming-Languages-MIT-Press/dp/0262162091) - A great introduction to type systems
-
-## Running the Presentation
-
-I built the slides for this presentation using [presenting.nvim](https://github.com/sotte/presenting.nvim). If you are running Neovim as your editor, you can install this plugin and run `:Presenting` while `presentation.md` is your active buffer. Otherwise, the presentation is just a (verbose) markdown file if you want to peruse the slides.
-
-## Setting Up Your Environment
-
-To set up a Haskell Environment to follow along, install [ghcup](https://www.haskell.org/ghcup/) using your package manager of choice. I personally recommend using `ghcup tui` to get an interactive UI for installing:
-
-* `stack` - Your Haskell project management tool. Use this to build your project with `stack build` or simply run it with `stack run`.
-* `cabal` - Haskell's library manager, which `stack` uses behind the scenes.
-* `ghc` - The Haskell compiler, which also comes with a repl `ghci` or "[GHC Interactive](https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/ghci.html)".
-* `hls` - Haskell's language server which integrates with modern IDE's to give you live errors, type hints, and documentation. 
-
-Make sure you not only install (`i`) the versions recommended by `ghcup tui` but also set (`s`) them as the default.
-
-## Setting Up This Project
-
-Assuming you have set up your enviroment with `ghcup`, you should be able to `stack build` this project. Your IDE should also show you type hints if HLS is properly configured for your IDE.
