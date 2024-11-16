@@ -27,13 +27,13 @@ I built the slides for this presentation using [presenting.nvim](https://github.
 
 ### Philisophical Posts
 
-* [Parse, Don't Validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) - A post on how to think about type-driven development and encode your intent in your type system.
-* [Pit of Success](https://blog.codinghorror.com/falling-into-the-pit-of-success/) - One of my favorite analogies when thinking about language design and setting up projects for large teams.
+* [Parse, Don't Validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) - A post on how to think about type-driven development and encode your intent in your type system
+* [Pit of Success](https://blog.codinghorror.com/falling-into-the-pit-of-success/) - One of my favorite analogies when thinking about language design and setting up projects for large teams
 
 ### Learning Resources
 
 * [Effective Haskell](https://www.pragprog.com/titles/rshaskell/effective-haskell/) - A pragmatic approach to using Haskell productively by Rebecca Skinner
-* [Production Haskell](https://leanpub.com/production-haskell) - A wonderful guide to managing Haskell and using it for production web backends by Matt Parsons.
+* [Production Haskell](https://leanpub.com/production-haskell) - A wonderful guide to managing Haskell and using it for production web backends by Matt Parsons
 * [Learn You a Haskell for Great Good!](https://learnyouahaskell.com/) - My favorite guide to learning Haskell that does not take itself too seriously
 
 ### Academic Stuff
