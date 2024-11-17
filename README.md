@@ -19,6 +19,18 @@ Make sure you not only install (`i`) the versions recommended by `ghcup tui` but
 
 Assuming you have set up your enviroment with `ghcup`, you should be able to `stack build` this project. Your IDE should also show you type hints if HLS is properly configured for your IDE.
 
+### Intended Order of Modules
+
+In the live coding demo I go through the contents of the modules in this project to build an intuition for Haskell. The order I go through these modules is:
+
+1. `src/ADT.hs`
+2. `src/Pattern.hs`
+3. `src/Typeclass.hs`
+4. `src/Functor.hs`
+5. `src/Applicative.hs`
+6. `src/Monad.hs`
+7. `Main.hs`
+
 ## Running the Presentation
 
 I built the slides for this presentation using [presenting.nvim](https://github.com/sotte/presenting.nvim). If you are running Neovim as your editor, you can install this plugin and run `:Presenting` while `presentation.md` is your active buffer. Otherwise, the presentation is just a (verbose) markdown file if you want to peruse the slides.

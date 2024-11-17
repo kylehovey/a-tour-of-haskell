@@ -28,7 +28,6 @@ library
       ADT
       Applicative
       Functor
-      Lib
       Monad
       Pattern
       Typeclass
