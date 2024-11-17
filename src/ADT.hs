@@ -11,7 +11,6 @@ data NotificationPreference
   deriving Show
   -- ^ This allows us to print this type
 
-annoyingNotifications :: NotificationPreference
 annoyingNotifications = NotifyIntervalDays 1
 
 data UserInput a

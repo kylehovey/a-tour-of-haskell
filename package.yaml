@@ -28,10 +28,11 @@ ghc-options:
 - -Widentities
 - -Wincomplete-record-updates
 - -Wincomplete-uni-patterns
-- -Wmissing-export-lists
 - -Wmissing-home-modules
 - -Wpartial-fields
 - -Wredundant-constraints
+- -fno-warn-unused-imports
+- -fno-warn-missing-signatures
 
 library:
   source-dirs: src
