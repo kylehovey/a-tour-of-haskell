@@ -21,7 +21,6 @@ data UserInput a
   deriving Show
 
 -- `a` is saturated with `Int`, producing `UserInput Int`
-userValue :: UserInput Int
 userValue = FromKeyboard 5
 
 -- Product types:
@@ -35,25 +34,25 @@ type Color = (Int, Int, Int) -- e.g. (255, 0, 255) for purple
 -- Record types:
 
 data Address = Address
- { address :: String
- , street :: String
- , city :: String
- , zipCode :: Int
+ { addressNumber :: String
+ , addressStreet :: String
+ , addressCity :: String
+ , addressZipCode :: Int
  }
  deriving Show
 
 myAddress :: Address
 myAddress = Address
-    { address = "42"
-    , street = "Wallaby Way"
-    , city = "Sydney"
-    , zipCode = 12345
+    { addressNumber = "42"
+    , addressStreet = "Wallaby Way"
+    , addressCity = "Sydney"
+    , addressZipCode = 12345
     }
 
 -- Extracting a value from a record
 -- (See :t city)
 myCity :: String
-myCity = city myAddress
+myCity = addressCity myAddress
 
 -- Constructing record as a function
 anotherWay :: Address

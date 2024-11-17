@@ -37,7 +37,7 @@ library
       Paths_a_tour_of_haskell
   hs-source-dirs:
       src
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures -fno-warn-type-defaults
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
@@ -50,7 +50,7 @@ executable a-tour-of-haskell-exe
       Paths_a_tour_of_haskell
   hs-source-dirs:
       app
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures -fno-warn-type-defaults -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       a-tour-of-haskell
     , base >=4.7 && <5
@@ -65,7 +65,7 @@ test-suite a-tour-of-haskell-test
       Paths_a_tour_of_haskell
   hs-source-dirs:
       test
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fno-warn-unused-imports -fno-warn-missing-signatures -fno-warn-type-defaults -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       a-tour-of-haskell
     , base >=4.7 && <5
