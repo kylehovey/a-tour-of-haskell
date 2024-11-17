@@ -13,6 +13,9 @@ main = do
   putStrLn "Enter another number:"
   mB <- readMaybe <$> getLine
 
-  case (+) <$> mA <*> mB of
+  let result :: Maybe Int
+      result = (+) <$> mA <*> mB
+
+  case result of
     Just summation -> print $ show summation
-    Nothing -> pure ()
+    Nothing -> print "Please enter numbers"

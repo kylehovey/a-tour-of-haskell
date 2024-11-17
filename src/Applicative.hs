@@ -1,9 +1,8 @@
 {-# LANGUAGE NoImplicitPrelude #-}
-{-# LANGUAGE ImportQualifiedPost #-}
 
 module Applicative where
 
-import Prelude (($), (+), (-), (*), (/), IO, print, show, Int, Show, Eq, String)
+import Prelude ((+), Int)
 import Data.Maybe
 import Functor
 
