@@ -38,8 +38,6 @@ We should use the tools we have so that our energy can be used on unsolved probl
 
 # Pit of Success
 
-Original source: [Pit of Success](https://blog.codinghorror.com/falling-into-the-pit-of-success/)
-
 Language choices have a profound impact on:
 * Readability - Forming a sound understanding from the code
 * Evolvability - The path of least resistance to making a change
@@ -81,7 +79,7 @@ The compiler should convert intent into:
 Complexity is not a war we can win totally.
 
 * A language should not aim to eliminate complexity.
-* All problems demand [a nonzero amount](https://en.wikipedia.org/wiki/Essential_complexity).
+* All problems demand a nonzero amount of it.
 
 # Complexity
 
