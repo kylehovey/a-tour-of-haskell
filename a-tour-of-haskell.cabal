@@ -25,8 +25,13 @@ source-repository head
 
 library
   exposed-modules:
+      ADT
+      Applicative
+      Functor
       Lib
-      ListIndex
+      Monad
+      Pattern
+      Typeclass
   other-modules:
       Paths_a_tour_of_haskell
   autogen-modules:
