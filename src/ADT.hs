@@ -41,7 +41,6 @@ data Address = Address
  }
  deriving Show
 
-myAddress :: Address
 myAddress = Address
     { addressNumber = "42"
     , addressStreet = "Wallaby Way"
@@ -51,9 +50,7 @@ myAddress = Address
 
 -- Extracting a value from a record
 -- (See :t city)
-myCity :: String
 myCity = addressCity myAddress
 
 -- Constructing record as a function
-anotherWay :: Address
 anotherWay = Address "42" "Wallaby Way" "Sydney" 12345

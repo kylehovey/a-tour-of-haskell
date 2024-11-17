@@ -20,8 +20,6 @@ instance Summable Maybe where
   getSum (Just x) = x
   getSum Nothing = 0
 
-fooSum :: Int
 fooSum = getSum [1, 2, 3, 4, 5]
 
-barSum :: Int
 barSum = getSum (Just 4)
