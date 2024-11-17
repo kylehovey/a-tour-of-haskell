@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Lib
+import Text.Read (readMaybe)
 
 -- This file is the entry point for the project, but because I
 -- set up modules for each section of the talk, I don't really
@@ -8,4 +8,11 @@ import Lib
 
 main :: IO ()
 main = do
-  putStrLn "Hello Frens!"
+  putStrLn "Enter a number:"
+  mA <- readMaybe <$> getLine
+  putStrLn "Enter another number:"
+  mB <- readMaybe <$> getLine
+
+  case (+) <$> mA <*> mB of
+    Just summation -> print $ show summation
+    Nothing -> pure ()

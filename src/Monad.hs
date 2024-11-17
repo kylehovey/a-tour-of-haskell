@@ -1,7 +1,7 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE ImportQualifiedPost #-}
 
-module Functor where
+module Monad where
 
 import Prelude qualified as P
 import Prelude (($), (+), (-), (*), (/), IO, print, show, Int, Show, Eq, String)
@@ -86,3 +86,5 @@ processed = do
   y <- if even x then pure x else mempty
   pure (y * 3)
   -- [6, 12]
+
+-- How do we do IO? (see Main)

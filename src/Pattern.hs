@@ -1,3 +1,5 @@
+module Pattern where
+
 -- You can match on values for functions. `0` and `1`
 -- as arguments will match before the more general pattern
 -- listed last.

@@ -1,7 +1,7 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE ImportQualifiedPost #-}
 
-module Functor where
+module Applicative where
 
 import Prelude qualified as P
 import Prelude (($), (+), (-), (*), (/), IO, print, show, Int, Show, Eq, String)
