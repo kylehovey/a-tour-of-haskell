@@ -33,7 +33,7 @@ In the live coding demo I go through the contents of the modules in this project
 
 ## Running the Presentation
 
-I built the slides for this presentation using [presenting.nvim](https://github.com/sotte/presenting.nvim). If you are running Neovim as your editor, you can install this plugin and run `:Presenting` while `presentation.md` is your active buffer. Otherwise, the presentation is just a (verbose) markdown file if you want to peruse the slides.
+The presentation is built using [Marp](https://marp.app) and exists both as raw markdown source in `presentation.md` and as a slide deck in `presentation.html`. Unless you want to view the raw text, I recommend opening the HTML presentation in your browser after cloning this repo.
 
 ## External Resources
 
