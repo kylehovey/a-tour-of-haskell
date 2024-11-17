@@ -33,18 +33,23 @@ We should use the tools we have so that our energy can be used on unsolved probl
 
 ---
 
-## Pit of Success
+## Code Stewardship
 
-Language choices have a profound impact on:
+### 🍝
 
-* **Readability** - Forming a sound understanding from the code
-* **Evolvability** - The path of least resistance to making a change
+The two worst outcomes leading to a cycle of spaghetti:
+
+* Poor readability leading to unsound understandings of the code
+* A path of least resistance with easily accessible foot-guns
 
 ---
 
-## 🍝
+## Pit of Success
 
-A bad understanding leads to poor design, and a path of least resistance without safety leads to bugs. Hard to read code then begets more hard to read code, the stable attactor is Spaghetti.
+Our language choices have an impact on:
+
+* **Readability** - Forming a sound understanding from the code
+* **Evolvability** - The path of least resistance to making a change
 
 ---
 
@@ -63,24 +68,6 @@ If possible:
 
 * Code should blow up in our faces, not the users' faces.
 * If possible, the language expresses not only procedure but _intent_.
-
----
-
-## Errors
-
-If possible:
-
-- Code should blow up in our faces, not the users' faces.
-- If possible, the language expresses not only procedure but _intent_.
-
-```haskell
-sendTransaction :: PositiveDollar -> RecipientId -> AppM Bool
-sendTransaction amount receipientId = runDB $ do
-    Entity _ Recipient {..} <- get404 receipientId
-    processTransaction (negate amount)
-
-    pure True
-```
 
 ---
 
@@ -116,4 +103,4 @@ Haskell is one of our best attempts at designing a language with these goals in 
 
 ## Haskell
 
-Without further adieu...
+Without further ado...
