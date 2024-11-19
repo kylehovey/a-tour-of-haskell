@@ -30,6 +30,7 @@ library
       Functor
       Monad
       Pattern
+      Reader
       Typeclass
   other-modules:
       Paths_a_tour_of_haskell

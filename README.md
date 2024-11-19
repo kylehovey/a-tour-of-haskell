@@ -30,6 +30,7 @@ In the live coding demo I go through the contents of the modules in this project
 5. `src/Applicative.hs`
 6. `src/Monad.hs`
 7. `Main.hs`
+8. `Reader.hs`
 
 ## Running the Presentation
 
