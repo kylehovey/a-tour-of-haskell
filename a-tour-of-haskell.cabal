@@ -31,6 +31,7 @@ library
       Monad
       Pattern
       Reader
+      State
       Typeclass
   other-modules:
       Paths_a_tour_of_haskell
